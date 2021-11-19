@@ -1,5 +1,6 @@
 ## Как установить на macOS
 Базовая команда для установки: `CREATE LANGUAGE plpython3u;` в клиенте postgres
+
 Если не сработало (скорее всего так и будет), то надо установить Stack Builder, там выбрать для установки edb languagepack
 * [Установщик тут](https://www.postgresql.org/download/macosx/)
 Скорее всего edb languagepack не установится, поэтому нужно вручную распаковать его, для этого:
